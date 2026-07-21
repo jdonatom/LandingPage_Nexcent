@@ -1,0 +1,45 @@
+nav{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLogo{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    gap: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: $secondaryColor;
+}
+
+.login{
+    display: inline-flex;
+    gap: 14px;
+}
+
+.secondaryButton{
+    padding: 10px 20px;
+    color: $primaryColor;
+    border: none;
+    background-color: transparent;
+}
+
+.primaryButton{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-color: $primaryColor;
+    border-radius: 6px;
+}

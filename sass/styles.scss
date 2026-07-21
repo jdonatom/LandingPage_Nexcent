@@ -1,9 +1,18 @@
-// h1 = 64px
-// h2 = 36px
-// h3 = 28px
-// h4, th = 20px
-// p = 16px
-// small, td = 14px
-// buttons = 14px and 16px
-
 @import "partials/normalize";
+@import "partials/variables";
+@import "partials/nav";
+@import "partials/hero";
+@import "partials/client";
+@import "partials/community";
+
+.pageBody{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+@import "partials/unlock";
+@import "partials/achivements";
+@import "partials/customers";

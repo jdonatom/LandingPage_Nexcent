@@ -307,4 +307,294 @@ template {
   display: none;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 1440px;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0px;
+  color: #4D4D4D;
+}
+
+h2 {
+  font-size: 2.25em;
+  margin: 0px;
+  color: #4D4D4D;
+}
+
+h3 {
+  font-size: 1.75em;
+  margin: 0px;
+  color: #4D4D4D;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1em;
+  margin: 0px;
+  color: #717171;
+}
+
+small, td {
+  font-size: 0.875em;
+  color: #717171;
+}
+
+nav {
+  width: 100%;
+  height: 84px;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLogo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu {
+  width: 40%;
+  display: flex;
+  gap: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #263238;
+}
+
+.login {
+  display: inline-flex;
+  gap: 14px;
+}
+
+.secondaryButton {
+  padding: 10px 20px;
+  color: #4CAF4F;
+  border: none;
+  background-color: transparent;
+}
+
+.primaryButton {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  background-color: #4CAF4F;
+  border-radius: 6px;
+}
+
+.hero {
+  height: 407px;
+  display: flex;
+  padding: 96px 10%;
+  align-items: center;
+  gap: 104px;
+  align-self: stretch;
+  position: relative;
+  background-color: #F5F7FA;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+span {
+  color: #4CAF4F;
+}
+
+.heroButton {
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4CAF4F;
+  color: white;
+}
+
+.dotPrimary {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4CAF4F;
+}
+
+.dotSecondary {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4CAF4F;
+  opacity: 0.3;
+}
+
+.carrousel {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  left: 49%;
+  top: 76%;
+}
+
+.client {
+  display: flex;
+  padding: 0% 10%;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 40px 0px;
+}
+
+.clientContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.clientLogos {
+  display: flex;
+  height: 98px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  max-width: 1152px;
+  padding: 0 10%;
+}
+
+.community {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.communityContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.communityOptions {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  height: 280px;
+}
+
+.communityCard {
+  display: flex;
+  width: 299px;
+  padding: 24px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(137, 147, 158, 0.5);
+  border-radius: 8px;
+}
+
+.pageBody {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.unlock {
+  display: flex;
+  padding: 0% 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unlockContent {
+  display: flex;
+  width: 46%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.achivements {
+  display: flex;
+  padding: 64px 144px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F7FA;
+}
+
+.achivementsContent {
+  display: flex;
+  width: 38%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.achivementsCounts {
+  width: 38%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 50%;
+}
+
+.customers {
+  display: flex;
+  padding: 32px 10%;
+  align-items: center;
+  gap: 5.5%;
+}
+
+.customersInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+}
+
+.customersLogos {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
 /*# sourceMappingURL=styles.css.map */

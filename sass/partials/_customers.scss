@@ -1,0 +1,21 @@
+.customers{
+    display: flex;
+    padding: 32px 10%;
+    align-items: center;
+    gap: 5.5%;
+}
+
+.customersInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.customersLogos{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}

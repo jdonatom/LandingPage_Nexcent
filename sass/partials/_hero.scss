@@ -1,0 +1,63 @@
+.hero{
+    height: 407px;
+    display: flex;
+    padding: 96px 10%;
+    align-items: center;
+    gap: 104px;
+    align-self: stretch;
+    position: relative;
+    background-color: $silver;
+
+}
+
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+span{
+    color: $primaryColor;
+}
+
+.heroButton{
+    padding: 14px 32px;
+    border-radius: 4px;
+    border: none;
+    background-color: $primaryColor;
+    color: white;
+}
+
+.dotPrimary{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+}
+
+.dotSecondary{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+    opacity: 0.3;
+}
+
+.carrousel{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    left: 49%;
+    top: 76%;
+}
