@@ -24,6 +24,15 @@ body{
     max-width: 1440px;
 }
 
+.pageBody{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
 h1{
     font-size: 4em;
     margin: 0px;
@@ -39,7 +48,11 @@ h3{
     margin: 0px;
     color: $darkGray;
 }
-h4{font-size: 1.25em;}
+h4{
+    font-size: 1.25em;
+    margin: 0px;
+    color: $darkGray;
+}
 p{
     font-size: 1em;
     margin: 0px;

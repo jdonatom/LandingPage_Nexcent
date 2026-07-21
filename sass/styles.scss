@@ -5,14 +5,10 @@
 @import "partials/client";
 @import "partials/community";
 
-.pageBody{
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 48px;
-}
+
 
 @import "partials/unlock";
 @import "partials/achivements";
 @import "partials/customers";
+@import "partials/comunityUpdates";
+@import "partials/footer";
