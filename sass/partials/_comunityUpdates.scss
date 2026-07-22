@@ -49,4 +49,12 @@
     top: 66%;
     text-align: center;
     z-index: 1;
+    line-height: 28px;
+}
+
+.readMore{
+    font-size: 1.25em;
+    color: $primaryColor;
+    font-weight: 600;
+    padding: 8px;
 }
