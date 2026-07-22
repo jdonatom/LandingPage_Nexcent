@@ -5,6 +5,7 @@ nav{
     gap: 10%;
     align-items: center;
     justify-content: center;
+    background-color: $silver;
 }
 
 .navLogo{
@@ -19,11 +20,13 @@ nav{
     gap: 10%;
 }
 
+// Menu Anchors
 a{
     text-decoration: none;
     color: $secondaryColor;
 }
 
+// Login & Signup container
 .login{
     display: inline-flex;
     gap: 14px;
@@ -34,6 +37,7 @@ a{
     color: $primaryColor;
     border: none;
     background-color: transparent;
+    font-size: 0.875em;
 }
 
 .primaryButton{
@@ -42,4 +46,5 @@ a{
     border: none;
     background-color: $primaryColor;
     border-radius: 6px;
+    font-size: 0.875em;
 }

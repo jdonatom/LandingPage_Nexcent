@@ -307,10 +307,35 @@ template {
   display: none;
 }
 
+h1, h5 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1em;
+}
+
+small, td {
+  font-size: 0.875em;
+  color: #717171;
+}
+
 html {
   display: flex;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -318,7 +343,6 @@ body {
 }
 
 .pageBody {
-  width: 100%;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -326,39 +350,9 @@ body {
   gap: 48px;
 }
 
-h1 {
-  font-size: 4em;
+h1, h2, h3, h4, p, h5 {
   margin: 0px;
   color: #4D4D4D;
-}
-
-h2 {
-  font-size: 2.25em;
-  margin: 0px;
-  color: #4D4D4D;
-}
-
-h3 {
-  font-size: 1.75em;
-  margin: 0px;
-  color: #4D4D4D;
-}
-
-h4 {
-  font-size: 1.25em;
-  margin: 0px;
-  color: #4D4D4D;
-}
-
-p {
-  font-size: 1em;
-  margin: 0px;
-  color: #717171;
-}
-
-small, td {
-  font-size: 0.875em;
-  color: #717171;
 }
 
 nav {
@@ -368,6 +362,7 @@ nav {
   gap: 10%;
   align-items: center;
   justify-content: center;
+  background-color: #F5F7FA;
 }
 
 .navLogo {
@@ -397,6 +392,7 @@ a {
   color: #4CAF4F;
   border: none;
   background-color: transparent;
+  font-size: 0.875em;
 }
 
 .primaryButton {
@@ -405,14 +401,14 @@ a {
   border: none;
   background-color: #4CAF4F;
   border-radius: 6px;
+  font-size: 0.875em;
 }
 
 .hero {
-  height: 407px;
   display: flex;
   padding: 96px 10%;
   align-items: center;
-  gap: 104px;
+  gap: 7%;
   align-self: stretch;
   position: relative;
   background-color: #F5F7FA;
@@ -446,7 +442,7 @@ span {
   color: white;
 }
 
-.dotPrimary {
+.dotPrimary, .dotSecondary {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -454,10 +450,6 @@ span {
 }
 
 .dotSecondary {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #4CAF4F;
   opacity: 0.3;
 }
 
@@ -488,7 +480,7 @@ span {
 
 .clientLogos {
   display: flex;
-  height: 98px;
+  padding: 24px 0;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
@@ -513,17 +505,15 @@ span {
   padding: 0 10%;
   justify-content: space-between;
   align-items: center;
-  height: 280px;
 }
 
 .communityCard {
   display: flex;
-  width: 299px;
-  padding: 24px 32px;
+  width: 21%;
+  padding: 24px 2%;
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  flex-shrink: 0;
   text-align: center;
   box-shadow: 0 2px 4px 0 rgba(137, 147, 158, 0.5);
   border-radius: 8px;
@@ -602,6 +592,7 @@ span {
 }
 
 .comunityUp {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -610,7 +601,7 @@ span {
 
 .comunityUpContent {
   display: flex;
-  max-width: 1110px;
+  max-width: 77%;
   flex-direction: column;
   align-items: center;
   gap: 8px;
@@ -623,9 +614,10 @@ span {
 
 .comunityUpGallery {
   display: flex;
+  width: 80%;
+  padding: 0% 10%;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 .comunityUpCard {
@@ -667,7 +659,7 @@ span {
   text-align: center;
 }
 
-.footerHead > h1 {
+.footerHead > h5 {
   width: 62%;
 }
 

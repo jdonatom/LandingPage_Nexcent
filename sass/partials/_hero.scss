@@ -1,13 +1,12 @@
+// Hero container
 .hero{
-    height: 407px;
     display: flex;
     padding: 96px 10%;
     align-items: center;
-    gap: 104px;
+    gap: 7%;
     align-self: stretch;
     position: relative;
     background-color: $silver;
-
 }
 
 .heroContent{
@@ -38,7 +37,7 @@ span{
     color: white;
 }
 
-.dotPrimary{
+.dotPrimary, .dotSecondary{
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -46,10 +45,6 @@ span{
 }
 
 .dotSecondary{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: $primaryColor;
     opacity: 0.3;
 }
 
